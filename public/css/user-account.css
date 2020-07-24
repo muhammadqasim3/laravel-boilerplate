@@ -1,0 +1,410 @@
+/*CSHEKOUT PAGE STRAT*/
+.checkoutPage {
+    padding: 2% 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.checkoutPage textarea.form-control {
+    height: 150px!important;
+    resize: none;
+    background: #fff!important;
+}
+.form-body .form-control {
+    border: solid 2px #cccccc;
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    background: #fff;
+}
+.form-body .form-group .right {
+    /*some of input boxes has not full width for i divide them into two parts this esction is for right inputboxes like first name, city,email,password*/
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    width: 49%;
+    float: left;
+}
+.form-body .form-group .left {
+    /*some of input boxes has not full width for i divide them into two parts this esction is for left  input boxes like last name, zip code,phone, confrim password*/
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    width: 49%;
+    float: right;
+}
+.form-body .form-group .chkbox {
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+    font-weight: normal;
+    padding-left: 15px;
+    position: relative;
+}
+.form-body .form-group .chkbox input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    position: absolute;
+    left: 0;
+}
+.checkoutPage h1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #525252;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.form-body .YouOrder {
+    background-color: #fff;
+    margin-top: 0;
+    padding: 20px 35px;
+    line-height: 30px;
+    box-shadow: -7px 8px 33px rgba(0,0,0,0.1);
+}
+.checkoutPage h3 {
+    font-size: 18px;
+    color: #525252;
+}
+.checkoutPage h3 span {
+    font-size: 22px;
+    color: #000000;
+    float: right;
+}
+.YouOrderh1 {
+    font-size: 21px;
+}
+.checkoutPage hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px dashed #cacaca;
+}
+.checkoutPage input[type="radio"] {
+    margin: 0px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    position: relative;
+    top: 2px;
+    left: -4px;
+}
+.radio label {
+    margin: 0px 0 24px;
+    padding-left: 0;
+}
+.checkoutPage h2 {
+    font-size: 18px;
+    color: #525252;
+}
+.checkoutPage h2 span {
+    float: right
+}
+{
+ font-size: 18px;
+ color: #525252;
+}
+.YouOrderh1 span {
+    color: #006666;
+    font-size: 30px;
+}
+.form-body .YouOrder h5 {
+    font-size: 15px;
+    margin: 20px 0;
+    color: #666666;
+}
+.form-body .YouOrder h5 span {
+    float: right
+}
+.form-body .PaymentMethod {
+    background-color: #f7f7f7;
+    margin-top: 53px;
+    padding: 42px 35px;
+}
+.form-body .PaymentMethod-a {
+    padding: 18px 60px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    background-color: #f2c131;
+    text-decoration: none;
+    display: table;
+    font-weight: 700;
+}
+.form-body .PaymentMethod-a:hover {
+    /*background-color: #efefed;*/
+    /* background-color: #efefed; */
+/*    padding: 16px 58px;*/
+    line-height: 16px;
+    background-color: #ffffff;
+    border: 2px solid #f2c131;
+    color: #f2c131;
+}
+.PaymentMethod .radio label, .checkbox label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+}
+.PaymentMethod p {
+    margin: 0 0 10px;
+    line-height: 24px;
+}
+.PaymentMethod .radio, .checkbox {
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-body .form-group .chkbox a {
+    color: #006666;
+    text-decoration: underline!important;
+    font-weight: 500;
+}
+          .checkoutPage .runningBtn {
+    padding: 18px 38px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    background-color: #e1e1e1;
+    text-decoration: none;
+    display: table;
+    font-weight: 500;
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+.checkoutPage .runningBtn:hover, .runningBtn:focus {
+    background: #f2c131;
+    color: #fff;
+}
+.checkoutPage :hover, a, h1, h2, h3, h4, h5, h6, li, p, ul {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+/* checkout css end */
+
+
+
+
+/*-------- Start My Account Page Wrapper --------*/
+.myaccount-tab-menu {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  /*! -ms-flex-direction: column; */
+  /*! flex-direction: column; */ }
+  .myaccount-tab-menu a {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    color: #202020;
+    font-weight: 500;
+    font-size: 13px;
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase; }
+    .myaccount-tab-menu a:last-child {
+      border-bottom: 1px solid #ccc; }
+    .myaccount-tab-menu a:hover, .myaccount-tab-menu a.active {
+      background-color: #192b7e;
+      border-color: #192b7e;
+      color: #fff !important; }
+    .myaccount-tab-menu a i.fa {
+      font-size: 14px;
+      text-align: center;
+      width: 25px; }
+
+@media only screen and (max-width: 767px) {
+  #myaccountContent {
+    margin-top: 30px; } }
+
+.myaccount-content {
+  border: 2px solid #ddd;
+padding: 10px 30px 50px; }
+  @media only screen and (max-width: 575px) {
+    .myaccount-content {
+      padding: 20px 15px; } }
+  .myaccount-content form {
+    margin-top: -20px; }
+  .myaccount-content h3 {
+    font-size: 22px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-weight: 400; }
+  .myaccount-content .welcome a {
+    color: #202020; }
+    .myaccount-content .welcome a:hover {
+      color: #face49; }
+  .myaccount-content .welcome strong {
+    font-weight: 600;
+    color: #33302e; }
+  .myaccount-content fieldset {
+    margin-top: 20px; }
+    .myaccount-content fieldset legend {
+      color: #202020;
+      font-size: 16px;
+      margin-top: 20px;
+      font-weight: 600;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ccc; }
+
+.myaccount-table {
+  white-space: nowrap;
+  font-size: 14px; }
+  .myaccount-table table th,
+  .myaccount-table .table th {
+    color:#202020;
+padding: 12px;
+font-weight: 600;
+background-color:#f8f8f8;
+border-color:#ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+border-bottom: 0;
+text-align: center; }
+  .myaccount-table table td,
+  .myaccount-table .table td {
+    padding: 11px;
+    vertical-align: middle;
+    border-color: #ccc; }
+
+.saved-message {
+  background-color: #f4f5f7;
+  border-top: 3px solid #d2012e;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  font-weight: 600;
+  font-size: 14px;
+  color: #202020;
+  padding: 20px; }
+
+  .tab-content .tab-pane.active {
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+    visibility: visible;
+}
+.tab-content .tab-pane {
+    display: block;
+    height: 0;
+    max-width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.myaccount-tab-menu a {
+    border: 1px solid 
+#ccc;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+border-bottom: none;
+color: #202020 !important;
+    font-weight: 500;
+    font-size: 13px;
+    display: block;
+    padding: 15px 8px;
+    text-transform: uppercase;
+}
+.my-account-wrapper {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.check-btn.sqr-btn {
+    border-radius: 4px;
+}
+.check-btn {
+  color:
+#fff;
+font-size: 13px;
+font-weight: 500;
+line-height: 29px;
+padding: 3px 16px;
+display: inline-block;
+background:
+    #3d3833;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.check-btn:hover {
+    color: #fff;
+background-color: #192b7e;
+}
+.single-input-item {
+    margin-top: 20px;
+}
+.single-input-item label {
+    color: 
+    #202020;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.single-input-item label.required::after {
+    content: '*';
+    color: 
+    red;
+    font-size: 14px;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.single-input-item input, .single-input-item textarea {
+    color: 
+#252525;
+border: 1px solid
+#ccc;
+padding: 12px 10px;
+width: 100%;
+font-size: 14px;
+background:
+    #f8f8f8;
+}
+
+.card-body .single-input-item {
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+.address img {
+    width: 100%;
+    margin-top: 45px;
+}
+.card-body{
+    display: none;
+}
+
+input.submit-btn {
+    background-color: #3d342f;
+    color: #fff;
+    padding: 13px 27px;
+    margin: -1px;
+    font-size: 14px;
+    font-family: 'Helvetica Neue LT Std';
+    float: right;
+    width: 28%;
+    border: none;
+}
+
+li.active a {
+    color: #192b7e !important;
+}
+
+.navbar {
+    z-index: 999;
+}
+
+.address h1 {
+    font-size: 19px !important;
+    font-weight: unset;
+}
+
+/*-------- Start My Account Page Wrapper --------*/

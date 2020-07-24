@@ -1,0 +1,7 @@
+<div class="form-group row justify-content-center left_css col-md-12 {{ $errors->has('%1$s') ? 'has-error' : ''}}">
+    {!! Form::label('%1$s', %2$s, ['class' => 'col-md-12 control-label']) !!}
+    <div class="col-md-12">
+        %3$s
+        {!! $errors->first('%1$s', '<p class="help-block">:message</p>') !!}
+    </div>
+</div>

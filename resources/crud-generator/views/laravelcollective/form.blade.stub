@@ -1,0 +1,7 @@
+%%formFieldsHtml%%
+
+<div class="form-group row justify-content-center">
+    <div class="col-lg-4 col-12 align-content-center">
+        {!! Form::submit(isset($submitButtonText) ? $submitButtonText : 'Create', ['class' => 'btn btn-primary']) !!}
+    </div>
+</div>
