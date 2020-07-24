@@ -92,9 +92,9 @@
                         <div class="clearfix"></div>
                         <form id="commentForm" action="{{url('admin/account/settings')}}"
                               method="POST" enctype="multipart/form-data">
-							  
+
 							  <input type="hidden" name="user_profile_dob" id="user_profile_dob" value="@if(!empty($user->profile->dob)){{$user->profile->dob}}@endif">
-							  
+
                             <!-- CSRF Token -->
                             <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
 
@@ -157,7 +157,7 @@
                                         <div class="form-group row justify-content-center    {{ $errors->first('dob', 'has-error') }}">
                                             <label for="dob" class="col-12 col-lg-2 control-label">Date of Birth</label>
                                             <div class="col-12 col-lg-6">
-                                                <input autocomplete="off" 
+                                                <input autocomplete="off"
 												value="@if(!empty($user->profile->dob)){{$user->profile->dob}}@endif"
                                                        id="dob" name="dob" type="text" class="form-control"
                                                        data-date-format="YYYY-MM-DD"
@@ -329,7 +329,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js"
             type="text/javascript"></script>
     <script src="{{asset('plugins/components/toast-master/js/jquery.toast.js')}}"></script>
-    <script src="{{ asset('js/edituser.js') }}"></script>
+    <script src="{{ asset('assets/js/edituser.js') }}"></script>
 
 
     <script>
