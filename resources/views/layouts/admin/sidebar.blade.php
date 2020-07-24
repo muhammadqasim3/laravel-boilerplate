@@ -36,20 +36,12 @@
                         </li>
                         <li><hr></li>
 
-                       <!-- <li>
-                            <a class="has-arrow waves-effect waves-dark" href="{{url('dashboard')}}" aria-expanded="false"><i class="fas fa-edit"></i>
-                            <span class="hide-menu">CMS</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="{{ url('admin/page') }}" class="">Pages Content</a></li>
-                            </ul>
-                        </li>
-                        <hr>-->
-                    <li><a href="{{url('admin/faq')}}"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="hide-menu">FAQ</span></a>
-                    </li>
-                    <li><hr></li>
-                    <li><a href="{{url('admin/service')}}"><i class="fa fa-scribd" aria-hidden="true"></i><span class="hide-menu">Service</span></a>
-                    </li>
-                    <li><hr></li>
+{{--                    <li><a href="{{url('admin/faq')}}"><i class="fa fa-question-circle-o" aria-hidden="true"></i><span class="hide-menu">FAQ</span></a>--}}
+{{--                    </li>--}}
+{{--                    <li><hr></li>--}}
+{{--                    <li><a href="{{url('admin/service')}}"><i class="fa fa-scribd" aria-hidden="true"></i><span class="hide-menu">Service</span></a>--}}
+{{--                    </li>--}}
+{{--                    <li><hr></li>--}}
                     @else
                         <li class="">
                             <a class="" href="{{url('dashboard')}}" aria-expanded="false">
@@ -84,11 +76,7 @@
                 </ul>
 
             </nav>
-
-
-
     @endif
-
     <!-- End Sidebar navigation -->
     </div>
     <!-- End Sidebar scroll-->
